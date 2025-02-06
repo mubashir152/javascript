@@ -44,11 +44,20 @@ const users = [
 ]
 users[2].gmail
 
-console.log(ecomerceUser);
-console.log(Object.keys(ecomerceUser));
-console.log(Object.values(ecomerceUser));
-console.log(Object.entries(ecomerceUser));
+// console.log(ecomerceUser);
+// console.log(Object.keys(ecomerceUser));
+// console.log(Object.values(ecomerceUser));
+// console.log(Object.entries(ecomerceUser));
 
-console.log(ecomerceUser.hasOwnProperty('email'));
+// console.log(ecomerceUser.hasOwnProperty('email'));
 
+//++++++++++++++++++++ Destructuring objects++++++++++++++++++
+const myCourse = {
+    name: "Js",
+    duration: "20days",
+    courseInstructor: "Hitesh",
+}
+// myCourse.courseInstructor
+const {courseInstructor: instructor} = myCourse
+console.log(instructor);
 

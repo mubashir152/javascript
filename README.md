@@ -11,3 +11,19 @@ Static Typing (for Comparison)
 1)In a statically typed language (e.g., Java, C++, TypeScript), variable types are determined at compile time.
 2)You must explicitly declare the type of a variable when you create it, and the type cannot change during execution.
 }
+
+
+## JavaScript Execution Context
+-----> Global Execution context
+-----> Function Execution context
+-----> Eval Execution Context
+
+## Execution Phases
+Global Execution ----> this
+Memory Phase
+Execution Phase
+
+
+
+## Nullish Coalescing Operator (??)
+The Nullish Coalescing Operator (??) in JavaScript is used to provide a default value when the left-hand side operand is null or undefined. It returns the right-hand side operand in such cases, otherwise, it returns the left-hand side operand

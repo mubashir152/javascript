@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    <!-- In this file I learn how to create a div using js and their attributes and how to show text on webpage -->
+</body>
+<script>
+    const Div = document.createElement('div')
+    Div.className = "main"
+    Div.id = Math.round(Math.random() * 10 + 1)
+    Div.setAttribute('title', 'new tiltle')
+    Div.style.backgroundColor = "green"
+    Div.style.padding = "20px "
+    // Two ways to add text
+    // Div.innerText = "Mubashir's DOM projects practice"
+    const addtext = document.createTextNode("Mubashir's DOM projects practice")
+    Div.appendChild(addtext)
+    console.log(Div);
+    document.body.appendChild(Div)
+</script>
+</html>

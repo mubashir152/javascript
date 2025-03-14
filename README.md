@@ -27,3 +27,20 @@ Execution Phase
 
 ## Nullish Coalescing Operator (??)
 The Nullish Coalescing Operator (??) in JavaScript is used to provide a default value when the left-hand side operand is null or undefined. It returns the right-hand side operand in such cases, otherwise, it returns the left-hand side operand
+
+
+
+<!-- Async Code -->
+1) Javascript (Default Bahaviour)
+---> Synchronous (one by one)
+---> Single thread
+
+
+2) Execution context                         {Each execution wait for the last one to complete}
+--->execute one line at a time
+    --> console log 1
+    --> console log 2
+
+3) Blocking Code                           /  Non Blocking code
+  block the flow of program                 does not block the flow
+  Read file sync                               read file Async
